@@ -93,3 +93,7 @@
 }
 
 /* 10. exercice-10 */
+.exercice-10 .container-big {
+  align-items: center;
+  justify-content: center;
+}
