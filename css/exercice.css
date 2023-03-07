@@ -55,9 +55,13 @@
 .exercice-6 .element {
   flex-grow: 1;
 }
-
 /* 7. exercice-7 */
-
+.exercice-7 .container-set {
+  flex-flow: column-reverse wrap-reverse;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */
