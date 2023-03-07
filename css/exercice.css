@@ -24,7 +24,19 @@
   align-self: flex-start;
 }
 /* 4. exercice-4 */
+.exercice-4 .container-big {
+  align-items: center;
+  justify-content: space-between;
+}
 
+.exercice-4 .element-pink {
+  order: 1;
+  align-self: flex-start;
+}
+
+.exercice-4 .element-blue {
+  order: 2;
+}
 /* 5. exercice-5 */
 
 /* 6. exercice-6 */
