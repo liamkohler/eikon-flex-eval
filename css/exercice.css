@@ -45,6 +45,16 @@
   justify-content: center;
 }
 /* 6. exercice-6 */
+.exercice-6 .container-small {
+  flex-flow: row wrap-reverse;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.exercice-6 .element {
+  flex-grow: 1;
+}
 
 /* 7. exercice-7 */
 
