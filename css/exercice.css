@@ -38,7 +38,12 @@
   order: 2;
 }
 /* 5. exercice-5 */
-
+.exercice-5 .container-small {
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 /* 6. exercice-6 */
 
 /* 7. exercice-7 */
