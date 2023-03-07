@@ -85,11 +85,15 @@
 .exercice-9 .container-small {
   flex-flow: column wrap;
   align-items: baseline;
+  
 }
 
-.exercice-9 .element-bleu,
-.exercice-9 .element-yellow {
+.exercice-9 .element-big {
   align-self: flex-end;
+}
+
+.exercice-9 .element-med {
+  align-self: flex-start;
 }
 
 /* 10. exercice-10 */
