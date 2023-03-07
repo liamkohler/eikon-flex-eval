@@ -1,17 +1,20 @@
 .container {
   display: flex;
 }
+
 /* 1. exercice-1 */
 .exercice-1 .container-big {
   align-items: center;
   justify-content: space-around;
 }
+
 /* 2. exercice-2 */
 .exercice-2 .container-big {
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
 }
+
 /* 3. exercice-3 */
 .exercice-3 .container-big{
   flex-direction: column;
@@ -23,6 +26,7 @@
   order: -1;
   align-self: flex-start;
 }
+
 /* 4. exercice-4 */
 .exercice-4 .container-big {
   align-items: center;
@@ -37,6 +41,7 @@
 .exercice-4 .element-blue {
   order: 2;
 }
+
 /* 5. exercice-5 */
 .exercice-5 .container-small {
   flex-flow: row wrap;
@@ -44,6 +49,7 @@
   align-content: center;
   justify-content: center;
 }
+
 /* 6. exercice-6 */
 .exercice-6 .container-small {
   flex-flow: row wrap-reverse;
@@ -55,6 +61,7 @@
 .exercice-6 .element {
   flex-grow: 1;
 }
+
 /* 7. exercice-7 */
 .exercice-7 .container-set {
   flex-flow: column-reverse wrap-reverse;
@@ -62,6 +69,7 @@
   align-content: center;
   justify-content: space-between;
 }
+
 /* 8. exercice-8 */
 .exercice-8 .container-small {
   flex-flow: row wrap;
@@ -72,7 +80,16 @@
 .exercice-8 .element-pink {
   order: 1;
 }
+
 /* 9. exercice-9 */
+.exercice-9 .container-small {
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+
+.exercice-9 .element-bleu,
+.exercice-9 .element-yellow {
+  align-self: flex-end;
+}
 
 /* 10. exercice-10 */
-
